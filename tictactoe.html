@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./style2.css">
+  
+
+</head>
+<body onload="a = new WhoseTurn()">
+    <h1>TIC TAC TOE</h1>
+    <div>  
+          <table align ="center">
+
+        <tr>
+            <td class="block" ><button id = "0" onclick="a.start(id)" style = "width: 100px;height: 100px" ></button></td>
+            <td class="block" ><button id = "1" onclick="a.start(id)" style = "width: 100px;height: 100px" ></button></td>
+            <td class="block"><button id = "2" onclick="a.start(id)" style = "width: 100px;height: 100px"></button></td>
+         </tr>
+        <tr>
+            <td class="block"><button id = "3" onclick="a.start(id)" style = "width: 100px;height: 100px"></button></td>
+            <td class="block"><button id = "4" onclick="a.start(id)" style = "width: 100px;height: 100px"></button></td>
+            <td class="block"><button id = "5" onclick="a.start(id)" style = "width: 100px;height: 100px"></button></td>
+        </tr>
+        <tr>
+            <td class="block"><button id = "6" onclick="a.start(id)" style = "width: 100px;height: 100px"></button></td>
+            <td class="block" ><button id = "7" onclick="a.start(id)" style = "width: 100px;height: 100px"></button></td>
+            <td class="block"><button id = "8" onclick="a.start(id)" style = "width: 100px;height: 100px"></button></td>
+        </tr>
+    </table>
+</div>
+<div class = "replay">
+    <button  onclick="new Replay().replay()"style = "width: 100px;height: 100px">Replay</button>
+</div>
+    <script src = "tictoe.js"></script>
+   
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+ h1 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px;
+  
+}
+      div {
+  text-align: center;
+  margin: 0px auto;
+  text-align: center;
+  margin: auto;
+}
+
+.block {
+ 
+  width:85px;
+  height:85px;
+  border: 5px solid #0026ff;
+  background: #FFFFFF;
+  font-size: 46pt;
+  font-family: arial;
+  font-weight: 300px ;
+  text-align: center;
+  margin: auto;
+  
+}
+
+.block:hover {
+  background: #C2DBFC;
+  text-align: center;
+}
+.replay
+{
+  width:85px;
+  height:85px;
+  background: #FFFFFF;
+  font-size: 46pt;
+ 
+}
